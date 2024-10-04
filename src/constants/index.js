@@ -28,15 +28,15 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "À propos",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Mes projets",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Me contacter",
     },
   ];
   
@@ -155,9 +155,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ma page web",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Ma page web, un défi que je me suis lancé, il s'agit de mon CV sous forme de site web codé avec HTML CSS et JavaScript",
       tags: [
         {
           name: "react",
@@ -173,12 +173,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://theoc0702.github.io/chellyCV",
     },
     {
-      name: "Job IT",
+      name: "Voiture",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Une page web pour tester des compétences apprises en CSS et HTML",
       tags: [
         {
           name: "react",
@@ -194,12 +194,12 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://theoc0703.github.io/BibiCar",
     },
     {
-      name: "Trip Guide",
+      name: "Tirage",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "J'avais pour objectif de créer un site web permettant à un professeur de tirer au sort un élève de la classe. On m'a donné des contraintes et des exigences que je devais respecter.",
       tags: [
         {
           name: "nextjs",
@@ -215,7 +215,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://theoc0703.github.io/Tirage",
     },
   ];
   
